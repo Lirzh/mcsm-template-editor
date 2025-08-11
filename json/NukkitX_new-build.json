@@ -1,0 +1,49 @@
+{
+  "language": "NukkitX",
+  "language_label": "NukkitX",
+  "packages": [
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[NukkitX] Minecraft general build1127",
+      "gameType": "",
+      "hardware": "",
+      "language": "NukkitX",
+      "remark": "NukkitX general build1127",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar nukkit-1.0-SNAPSHOT.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.opencollab.dev/job/NukkitX/job/Nukkit/job/master/1127/artifact/target/nukkit-1.0-SNAPSHOT.jar",
+      "title": "Minecraft general build1127"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[NukkitX] Minecraft general build1044",
+      "gameType": "",
+      "hardware": "",
+      "language": "NukkitX",
+      "remark": "NukkitX general build1044",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar nukkit-1.0-SNAPSHOT.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.opencollab.dev/job/NukkitX/job/Nukkit/job/master/1044/artifact/target/nukkit-1.0-SNAPSHOT.jar",
+      "title": "Minecraft general build1044"
+    }
+  ],
+  "remark": "Packages for language: NukkitX"
+}

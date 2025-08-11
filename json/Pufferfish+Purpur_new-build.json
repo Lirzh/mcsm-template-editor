@@ -1,0 +1,364 @@
+{
+  "language": "Pufferfish+Purpur",
+  "language_label": "Pufferfish+Purpur",
+  "packages": [
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build9",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build9",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/9/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build9"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build8",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build8",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/8/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build8"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build7",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build7",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/7/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build7"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build6",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build6",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/6/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build6"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build5",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build5",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/5/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build5"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build3",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build3",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/3/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build3"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build2",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build2",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/2/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build2"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build18",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build18",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/18/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build18"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build17",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build17",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/17/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build17"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build16",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build16",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/16/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build16"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build15",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build15",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/15/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build15"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build14",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build14",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/14/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build14"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build13",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build13",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/13/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build13"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build12",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build12",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/12/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build12"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build11",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build11",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/11/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build11"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build10",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build10",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/10/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build10"
+    },
+    {
+      "author": "UCKET",
+      "category": "",
+      "description": "[Pufferfish+Purpur] Minecraft 1.18.2 build1",
+      "gameType": "",
+      "hardware": "",
+      "language": "Pufferfish+Purpur",
+      "remark": "Pufferfish+Purpur 1.18.2 build1",
+      "runtime": "",
+      "setupInfo": {
+        "ie": "utf-8",
+        "oe": "utf-8",
+        "startCommand": "java -jar pufferfishplus-1.18.2-purpur.jar nogui",
+        "stopCommand": "stop",
+        "type": "minecraft/java",
+        "updateCommand": ""
+      },
+      "size": "",
+      "targetLink": "https://ci.pufferfish.host/job/PufferfishPlus-1.18-Purpur/1/artifact/pufferfishplus-1.18.2-purpur.jar",
+      "title": "Minecraft 1.18.2 build1"
+    }
+  ],
+  "remark": "Packages for language: Pufferfish+Purpur"
+}

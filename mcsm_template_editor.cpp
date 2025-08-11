@@ -341,6 +341,66 @@ void keepLatestBuildVersions(TemplateData& data) {
     cout << "已完成最新构建版本的保留！\n";
 }
 
+// 保存最新构建版本到_new-build.json文件
+void saveLatestBuildVersions(const TemplateData& data) {
+    // 按语言分组
+    map<string, vector<Package>> packagesByLang;
+    for (const auto& pkg : data.packages) {
+        packagesByLang[pkg.language].push_back(pkg);
+    }
+
+    // 为每种语言创建并保存JSON文件
+    for (const auto& [lang, packages] : packagesByLang) {
+        json j;
+        j["remark"] = "Packages for language: " + lang;
+        j["language"] = lang;
+
+        // 查找对应的语言标签
+        for (const auto& language : data.languages) {
+            if (language.value == lang) {
+                j["language_label"] = language.label;
+                break;
+            }
+        }
+
+        // 转换包
+        json packagesJson = json::array();
+        for (const auto& pkg : packages) {
+            json pkgJson;
+            pkgJson["language"] = pkg.language;
+            pkgJson["gameType"] = pkg.gameType;
+            pkgJson["description"] = pkg.description;
+            pkgJson["title"] = pkg.title;
+            pkgJson["category"] = pkg.category;
+            pkgJson["runtime"] = pkg.runtime;
+            pkgJson["hardware"] = pkg.hardware;
+            pkgJson["size"] = pkg.size;
+            pkgJson["remark"] = pkg.remark;
+            pkgJson["targetLink"] = pkg.targetLink;
+            pkgJson["author"] = pkg.author;
+
+            // 转换setupInfo
+            json setupJson;
+            setupJson["type"] = pkg.setupInfo.type;
+            setupJson["startCommand"] = pkg.setupInfo.startCommand;
+            setupJson["stopCommand"] = pkg.setupInfo.stopCommand;
+            setupJson["updateCommand"] = pkg.setupInfo.updateCommand;
+            setupJson["ie"] = pkg.setupInfo.ie;
+            setupJson["oe"] = pkg.setupInfo.oe;
+            pkgJson["setupInfo"] = setupJson;
+
+            packagesJson.push_back(pkgJson);
+        }
+        j["packages"] = packagesJson;
+
+        // 保存到文件，文件名为原来_new-build.json
+        string fileName = lang + "_new-build.json";
+        saveJsonToFile(j, fileName);
+    }
+
+    cout << "已将最新构建版本保存到_new-build.json文件!\n";
+}
+
 // 合并两个JSON文件
 void mergeJsonFiles(TemplateData& data) {
     cout << "输入要合并的JSON文件路径: ";
@@ -595,9 +655,10 @@ void showMainMenu() {
     cout << "7. 按语言保存包到单独文件\n";
     cout << "8. 合并JSON文件\n";
     cout << "9. 保留最新构建版本\n";
-    cout << "10. 保存更改\n";
-    cout << "11. 切换文件\n";
-    cout << "12. 退出\n";
+    cout << "10. 保存最新构建版本到_new-build.json\n";
+    cout << "11. 保存更改\n";
+    cout << "12. 切换文件\n";
+    cout << "13. 退出\n";
     cout << "=================================\n";
     cout << "请选择操作: ";
 }
@@ -695,11 +756,14 @@ int main(int argc, char* argv[]) {
                 keepLatestBuildVersions(data);
                 break;
             case 10:
+                saveLatestBuildVersions(data);
+                break;
+            case 11:
                 // 转换回JSON并保存
                 j = templateDataToJson(data);
                 saveJsonToFile(j, filePath);
                 break;
-            case 11: {
+            case 12: {
                 cout << "是否保存当前文件的更改? (y/n): ";
                 char saveChoice;
                 cin >> saveChoice;
@@ -727,7 +791,7 @@ int main(int argc, char* argv[]) {
                 }
                 break;
             }
-            case 12:
+            case 13:
                 cout << "是否保存更改? (y/n): ";
                 char exitSaveChoice;
                 cin >> exitSaveChoice;

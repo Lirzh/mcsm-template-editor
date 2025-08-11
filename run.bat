@@ -1,0 +1,1 @@
+mcsm_template_editor.exe server.json
