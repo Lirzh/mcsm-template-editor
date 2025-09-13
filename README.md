@@ -1,4 +1,6 @@
-# MCSManager 模板编辑器
+# MCSManager 模板编辑器（已停更）
+
+[UCKETX/mcsm-templates: MCSManager-Minecraft服务端快速配置模板](https://github.com/UCKETX/mcsm-templates) 已实现更先进的模板去重功能
 
 这是一个用于编辑 MCSManager 服务端模板 JSON 文件的命令行工具。它允许你查看、添加、编辑和删除 Minecraft 服务端模板，无需图形界面，单个文件即可运行。
 
@@ -16,13 +18,17 @@
 ## 快速启动
 
 下载 mcsm_template_editor.exe ，在 json 文件夹内放入 .json文件，运行
+
 ```
 mcsm_template_editor.exe json文件名
 ```
+
 如
+
 ```
 mcsm_template_editor.exe server.json
 ```
+
 即可打开 server.json 文件进行编辑。
 
 
